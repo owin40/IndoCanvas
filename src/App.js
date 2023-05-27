@@ -1,5 +1,8 @@
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import "./App.css";
+import Head from "./Head";
+import About from "./About";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
         <ParallaxLayer offset={0} speed={-0.3}>
           <div class="animation_layer parallax" id="title-stroke"></div>
         </ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0}>
+          <Head />
+        </ParallaxLayer>
         <ParallaxLayer offset={1} speed={0.2}>
           <div class="animation_layer parallax" id="pg2-bg"></div>
         </ParallaxLayer>
@@ -36,6 +42,13 @@ function App() {
           <div class="animation_layer parallax" id="acc55"></div>
         </ParallaxLayer>
       </Parallax>
+
+      <Routes>
+        <Route>
+          <Route path="/" element={Head} />
+          <Route path="/about" element={About} />
+        </Route>
+      </Routes>
     </div>
   );
 }
