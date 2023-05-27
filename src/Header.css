@@ -1,5 +1,6 @@
 header {
-  background-image: url("images/bgbg.jpg");
+  background-color: rgba(0, 0, 0, 0.4);
+  /* background-image: url("images/bgbg.jpg"); */
   color: #fff;
   padding: 20px;
   background-size: cover;

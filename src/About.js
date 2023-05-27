@@ -5,7 +5,7 @@ function About() {
   return (
     <div>
       <header>
-        <div class="container">
+        <div className="container">
           <h1>Culture Gallery</h1>
           <nav>
             <ul>
@@ -20,43 +20,43 @@ function About() {
         </div>
       </header>
 
-      <section class="container mt-5">
-        <div class="about"></div>
+      <section className="container mt-5">
+        <div className="about"></div>
 
-        <div class="row mt-4">
-          <div class="col-md-6 col-lg-3 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="foto" alt="Card image" />
-              <div class="card-body">
-                <h4 class="card-title">Godwin Gilbert Woisiri</h4>
-                <p1 class="card-text">Desciption orang 1</p1>
+        <div className="row mt-4">
+          <div className="col-md-6 col-lg-3 mb-4">
+            <div className="card">
+              <img className="card-img-top" src="foto" alt="Card image" />
+              <div className="card-body">
+                <h4 className="card-title">Godwin Gilbert Woisiri</h4>
+                <p1 className="card-text">Desciption orang 1</p1>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="foto" alt="Card image" />
-              <div class="card-body">
-                <h4 class="card-title">Kyla Arynda Salsabila</h4>
-                <p1 class="card-text">Desciption orang 2</p1>
+          <div className="col-md-6 col-lg-3 mb-4">
+            <div className="card">
+              <img className="card-img-top" src="foto" alt="Card image" />
+              <div className="card-body">
+                <h4 className="card-title">Kyla Arynda Salsabila</h4>
+                <p1 className="card-text">Desciption orang 2</p1>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="foto" alt="Card image" />
-              <div class="card-body">
-                <h4 class="card-title">Muhammad Amar Fadillah</h4>
-                <p1 class="card-text">Decription orang 3</p1>
+          <div className="col-md-6 col-lg-3 mb-4">
+            <div className="card">
+              <img className="card-img-top" src="foto" alt="Card image" />
+              <div className="card-body">
+                <h4 className="card-title">Muhammad Amar Fadillah</h4>
+                <p1 className="card-text">Decription orang 3</p1>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="foto" alt="Card image" />
-              <div class="card-body">
-                <h4 class="card-title">Siti Maryama Ramadhini Afifah</h4>
-                <p1 class="card-text">Description orang 4</p1>
+          <div className="col-md-6 col-lg-3 mb-4">
+            <div className="card">
+              <img className="card-img-top" src="foto" alt="Card image" />
+              <div className="card-body">
+                <h4 className="card-title">Siti Maryama Ramadhini Afifah</h4>
+                <p1 className="card-text">Description orang 4</p1>
               </div>
             </div>
           </div>
