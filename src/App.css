@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.animation,
+.animation_layer {
+  height: 1000px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.animation {
+  display: block;
+  position: relative;
+  z-index: 10;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.animation_layer {
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+}
+.animation_layer.parallax {
+  position: fixed;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#pg1-bg {
+  background-image: url(./images/pg1-bg.png);
 }
 
-.App-link {
-  color: #61dafb;
+#overlay {
+  background-image: url(./images/overlay.png);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#title {
+  background-image: url(./images/title.png);
+}
+
+#title-stroke {
+  background-image: url(./images/title-stroke.png);
+}
+
+#acc11 {
+  background-image: url(./images/acc1.png);
+}
+
+#acc22 {
+  background-image: url(./images/acc2.png);
+}
+
+#acc33 {
+  background-image: url(./images/acc3.png);
+}
+
+#acc44 {
+  background-image: url(./images/acc4.png);
+}
+
+#acc55 {
+  background-image: url(./images/acc5.png);
+}
+
+#pg2-bg {
+  background-image: url(./images/pg2-bg.png);
 }
