@@ -3,6 +3,8 @@ import Head from "./Head";
 import Kotak from "./Kotak";
 import Paint1 from "./Paint1";
 import Paint2 from "./Paint2";
+import Paint3 from "./Paint3";
+import Paint4 from "./Paint4";
 import Kesatu from "./Lukisan/a-flood-in-java-raden-saleh.png";
 import Kedua from "./Lukisan/ayam-tarung-affandi.png";
 import Ketiga from "./Lukisan/enampriaberbururusa-radensaleh.png";
@@ -75,7 +77,7 @@ function Home() {
           <div class="animation_layer parallax" id="bg3"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={4} speed={1}>
-          <Paint2 />
+          <Paint3 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={5} speed={0}>
@@ -86,7 +88,7 @@ function Home() {
           <div class="animation_layer parallax" id="bg3"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={5} speed={1}>
-          <Paint2 />
+          <Paint4 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={6} speed={0}>
