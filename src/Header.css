@@ -1,35 +1,80 @@
+#logo {
+  height: 60px;
+  width: 60px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(./images/logo.png);
+}
+
+.owin {
+  background-image: url(images/1.png);
+  width: 344px;
+  height: 325px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.kyla {
+  width: 344px;
+  height: 325px;
+  background-image: url(images/2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.amar {
+  width: 344px;
+  height: 325px;
+  background-image: url(images/3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dhini {
+  width: 344px;
+  height: 325px;
+  background-image: url(images/4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 header {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
   /* background-image: url("images/bgbg.jpg"); */
   color: #fff;
-  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
   background-size: cover;
 }
 
 .container {
   max-width: 1500px;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-h1 {
-  margin: 0;
-}
-
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 nav ul li {
-  display: inline;
   margin-right: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 nav ul li a {
+  font-size: 25px;
   color: #fff;
   text-decoration: none;
 }
@@ -37,4 +82,38 @@ nav ul li a {
 nav ul li a:hover {
   color: tomato;
   text-decoration: none;
+}
+
+.atas {
+  transition: transform 0.3s;
+}
+
+.atas:hover {
+  transform: translateY(-5px);
+  /* transform: scale(120%); */
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  nav ul {
+    flex-direction: row;
+  }
+
+  nav ul li {
+    padding-right: 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }

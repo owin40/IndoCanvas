@@ -6,13 +6,13 @@ function About() {
     <div>
       <header>
         <div className="container">
-          <h1>Culture Gallery</h1>
+          <div id="logo"></div>
           <nav>
             <ul>
-              <li>
+              <li className="atas">
                 <Link to="/">Home</Link>
               </li>
-              <li>
+              <li className="atas">
                 <Link to="/about">About Us</Link>
               </li>
             </ul>
@@ -26,11 +26,7 @@ function About() {
         <div className="row mt-4">
           <div className="col-md-6 col-lg-3 mb-4">
             <div className="card">
-              <img
-                className="card-img-top"
-                src="images/c.png"
-                alt="Card image"
-              />
+              <div className="card-img-top owin" alt="Godwin Gilbert Woisiri" />
               <div className="card-body">
                 <h4 className="card-title">Godwin Gilbert Woisiri</h4>
                 <p1 className="card-text">Desciption orang 1</p1>
@@ -39,11 +35,7 @@ function About() {
           </div>
           <div className="col-md-6 col-lg-3 mb-4">
             <div className="card">
-              <img
-                className="card-img-top"
-                src="images/e.png"
-                alt="Card image"
-              />
+              <div className="card-img-top kyla" alt="Kyla Arynda Salsabila" />
               <div className="card-body">
                 <h4 className="card-title">Kyla Arynda Salsabila</h4>
                 <p1 className="card-text">Desciption orang 2</p1>
@@ -52,11 +44,7 @@ function About() {
           </div>
           <div className="col-md-6 col-lg-3 mb-4">
             <div className="card">
-              <img
-                className="card-img-top"
-                src="images/b.png"
-                alt="Card image"
-              />
+              <div className="card-img-top amar" alt="Muhammad Amar Fadillah" />
               <div className="card-body">
                 <h4 className="card-title">Muhammad Amar Fadillah</h4>
                 <p1 className="card-text">Decription orang 3</p1>
@@ -65,10 +53,9 @@ function About() {
           </div>
           <div className="col-md-6 col-lg-3 mb-4">
             <div className="card">
-              <img
-                className="card-img-top"
-                src="images/a.png"
-                alt="Card image"
+              <div
+                className="card-img-top dhini"
+                alt="Siti Maryama Ramadhini Afifah"
               />
               <div className="card-body">
                 <h4 className="card-title">Siti Maryama Ramadhini Afifah</h4>

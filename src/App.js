@@ -16,9 +16,6 @@ function App() {
           }
         />
         <Route path="/about" element={<About />} />
-        <Route path="/social" element={<About />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/about" element={<About />} />
       </Route>
     </Routes>
   );

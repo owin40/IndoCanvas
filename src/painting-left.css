@@ -1,0 +1,48 @@
+.container3 {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: auto;
+}
+
+.content-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  flex: 1;
+  padding-left: 40px;
+  margin-left: 20px;
+}
+
+.title {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  padding-top: 20px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.sub-title {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  font-style: italic;
+}
+
+.description {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}

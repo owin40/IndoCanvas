@@ -20,21 +20,48 @@
   position: fixed;
 }
 
-#pg1-bg {
-  background-image: url(./images/pg1-bg.png);
+#strd {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  opacity: 0.6;
+}
+
+#white {
+  background-image: url(./images/whitebg.png);
+}
+
+#bg3 {
+  background-image: url(./images/bg3.png);
+}
+
+#paper {
+  background-image: url(./images/bg2.png);
+}
+
+#bg-uncut {
+  background-image: url(./images/bg-uncut.png);
+}
+
+#bg-cut {
+  background-image: url(./images/bg-cut.png);
 }
 
 #overlay {
   background-image: url(./images/overlay.png);
 }
 
-#title {
-  background-image: url(./images/title.png);
+#title2 {
+  background-image: url(./images/title2.png);
 }
 
-#title-stroke {
+/* #title {
+  background-image: url(./images/title.png);
+} */
+
+/* #title-stroke {
   background-image: url(./images/title-stroke.png);
-}
+} */
 
 #acc11 {
   background-image: url(./images/acc1.png);
@@ -58,4 +85,15 @@
 
 #pg2-bg {
   background-image: url(./images/pg2-bg.png);
+}
+
+@media (max-width: 768px) {
+  .animation,
+  .animation_layer {
+    height: 50vh;
+  }
+
+  .animation_layer {
+    background-size: cover;
+  }
 }

@@ -6,13 +6,13 @@ function Head() {
     <div>
       <header>
         <div className="container">
-          <h1>Culture Gallery</h1>
+          <div id="logo"></div>
           <nav>
             <ul>
-              <li>
+              <li className="atas">
                 <Link to="/">Home</Link>
               </li>
-              <li>
+              <li className="atas">
                 <Link to="/about">About Us</Link>
               </li>
             </ul>
