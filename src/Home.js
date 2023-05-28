@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import ReactGA from "react-ga";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Head from "./Head";
 import Kotak from "./Kotak";
@@ -23,6 +25,10 @@ import Keempatbelas from "./Lukisan/resting-s.sudjojono.jpeg";
 import Kelimabelas from "./Lukisan/wisdomoftheeast-affandi.png";
 
 function Home() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+
   return (
     <>
       <Parallax pages={17} style={{ top: "0", left: "0" }} class="animation">
