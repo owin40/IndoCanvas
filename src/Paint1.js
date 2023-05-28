@@ -8,7 +8,7 @@ function Paint1() {
         <img src={Kesatu} alt="one" className="image" />
       </div>
       <div className="content-container">
-        <h2 className="title">Banjir di Jawa</h2>
+        <h2 className="title">A Flood on Java</h2>
         <h3 className="sub-title">Karya: Raden Saleh</h3>
         <p className="description">
           Sapuan kuas Raden Saleh mampu menggambarkan adegan kesengsaraan yang

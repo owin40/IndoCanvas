@@ -5,6 +5,7 @@ import Paint1 from "./Paint1";
 import Paint2 from "./Paint2";
 import Paint3 from "./Paint3";
 import Paint4 from "./Paint4";
+import Paint5 from "./Paint5";
 import Kesatu from "./Lukisan/a-flood-in-java-raden-saleh.png";
 import Kedua from "./Lukisan/ayam-tarung-affandi.png";
 import Ketiga from "./Lukisan/enampriaberbururusa-radensaleh.png";
@@ -99,7 +100,7 @@ function Home() {
           <div class="animation_layer parallax" id="bg3"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={6} speed={1}>
-          <Paint2 />
+          <Paint5 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={7} speed={0}>
