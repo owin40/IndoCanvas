@@ -29,7 +29,7 @@ function About() {
               <div className="card-img-top owin" alt="Godwin Gilbert Woisiri" />
               <div className="card-body">
                 <h4 className="card-title">Godwin Gilbert Woisiri</h4>
-                <p1 className="card-text">Desciption orang 1</p1>
+                <p1 className="card-text">00000083560</p1>
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@ function About() {
               <div className="card-img-top kyla" alt="Kyla Arynda Salsabila" />
               <div className="card-body">
                 <h4 className="card-title">Kyla Arynda Salsabila</h4>
-                <p1 className="card-text">Desciption orang 2</p1>
+                <p1 className="card-text">00000087561</p1>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@ function About() {
               <div className="card-img-top amar" alt="Muhammad Amar Fadillah" />
               <div className="card-body">
                 <h4 className="card-title">Muhammad Amar Fadillah</h4>
-                <p1 className="card-text">Decription orang 3</p1>
+                <p1 className="card-text">00000087694</p1>
               </div>
             </div>
           </div>
@@ -58,8 +58,8 @@ function About() {
                 alt="Siti Maryama Ramadhini Afifah"
               />
               <div className="card-body">
-                <h4 className="card-title">Siti Maryama Ramadhini Afifah</h4>
-                <p1 className="card-text">Description orang 4</p1>
+                <h4 className="card-title">Siti Maryama Ramadhini A</h4>
+                <p1 className="card-text">00000089085</p1>
               </div>
             </div>
           </div>
