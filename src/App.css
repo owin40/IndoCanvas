@@ -87,6 +87,10 @@
   background-image: url(./images/pg2-bg.png);
 }
 
+#kris {
+  background-image: url(./images/bunga.png);
+}
+
 @media (max-width: 768px) {
   .animation,
   .animation_layer {

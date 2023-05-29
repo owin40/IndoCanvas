@@ -71,6 +71,9 @@ function Home() {
         <ParallaxLayer offset={2} speed={0}>
           <div class="animation_layer parallax" id="bg3"></div>
         </ParallaxLayer>
+        <ParallaxLayer offset={2} speed={0.8}>
+          <div class="animation_layer parallax" id="kris"></div>
+        </ParallaxLayer>
         <ParallaxLayer offset={2} speed={1}>
           <Paint1 />
         </ParallaxLayer>
