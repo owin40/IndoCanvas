@@ -11,13 +11,18 @@ function Paint6() {
         <h2 className="title1">Mengungsi</h2>
         <h3 className="sub-title1">Karya: S.Sudjojono</h3>
         <p className="description1">
-          Lukisan karya Barli Sasmita Winata ini menjelaskan, menunjukan arus
-          aliran sungai dikawasan dengan kata “hilir” yang berarti arus aliran
-          sungai. Dan di tambah lagi dengan para perantau atau perkerja migran
-          yang bertransportasi perahu untuk kembali ke kampung halamannya . itu
-          kenapa ada kata “mudik“dijudulnya Jadi hilir mudik menjelaskan para
-          perantauatau perkerja migran yang ingin pulang ke kampunghalamnnya
-          dengan alat transportasi perahu diatas arus aliran sungai
+          "Mengungsi" adalah karya seni lukis yang dibuat oleh S. Sudjojono,
+          seorang pelukis Indonesia terkenal. Dalam karya ini, Sudjojono
+          menggambarkan pengalaman dan perjuangan manusia dalam menghadapi
+          konflik dan ketidakpastian. Lukisan tersebut mengungkapkan emosi yang
+          kuat dan intens melalui pilihan warna yang dramatis dan komposisi yang
+          ekspresif. Dalam lukisan "Mengungsi," Sudjojono menyampaikan pesan
+          tentang keadaan manusia yang terdorong untuk meninggalkan rumah
+          mereka, mencari perlindungan, dan mencoba bertahan dalam situasi yang
+          sulit. Karya ini menggambarkan kemanusiaan yang rentan dan daya tahan
+          yang luar biasa, serta mengajak pemirsa untuk merenungkan makna
+          mendalam dari kehilangan, perubahan, dan harapan dalam konteks kondisi
+          sosial dan politik yang tidak stabil.
         </p>
       </div>
     </div>

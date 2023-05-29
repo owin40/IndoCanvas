@@ -8,6 +8,16 @@ import Paint2 from "./Paint2";
 import Paint3 from "./Paint3";
 import Paint4 from "./Paint4";
 import Paint5 from "./Paint5";
+import Paint6 from "./Paint6";
+import Paint7 from "./Paint7";
+import Paint8 from "./Paint8";
+import Paint9 from "./Paint9";
+import Paint10 from "./Paint10";
+import Paint11 from "./Paint11";
+import Paint12 from "./Paint12";
+import Paint13 from "./Paint13";
+import Paint14 from "./Paint14";
+import Paint15 from "./Paint15";
 import Kesatu from "./Lukisan/a-flood-in-java-raden-saleh.png";
 import Kedua from "./Lukisan/ayam-tarung-affandi.png";
 import Ketiga from "./Lukisan/enampriaberbururusa-radensaleh.png";
@@ -117,7 +127,7 @@ function Home() {
           <div class="animation_layer parallax" id="bg3"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={7} speed={1}>
-          <Paint2 />
+          <Paint6 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={8} speed={0}>
@@ -128,7 +138,7 @@ function Home() {
           <div class="animation_layer parallax" id="bg3"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={8} speed={1}>
-          <Paint2 />
+          <Paint7 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={9} speed={0}>
@@ -139,7 +149,7 @@ function Home() {
           <div class="animation_layer parallax" id="bg3"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={9} speed={1}>
-          <Paint2 />
+          <Paint8 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={10} speed={0}>
@@ -150,7 +160,7 @@ function Home() {
           <div class="animation_layer parallax" id="bg3"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={10} speed={1}>
-          <Paint2 />
+          <Paint9 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={11} speed={0}>
@@ -161,7 +171,7 @@ function Home() {
           <div class="animation_layer parallax" id="bg3"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={11} speed={1}>
-          <Paint2 />
+          <Paint10 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={12} speed={0}>
@@ -172,7 +182,7 @@ function Home() {
           <div class="animation_layer parallax" id="bg3"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={12} speed={1}>
-          <Paint2 />
+          <Paint11 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={13} speed={0}>
@@ -183,7 +193,7 @@ function Home() {
           <div class="animation_layer parallax" id="bg3"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={13} speed={1}>
-          <Paint2 />
+          <Paint12 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={14} speed={0}>
@@ -194,7 +204,7 @@ function Home() {
           <div class="animation_layer parallax" id="bg3"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={14} speed={1}>
-          <Paint2 />
+          <Paint13 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={15} speed={0}>
@@ -205,7 +215,7 @@ function Home() {
           <div class="animation_layer parallax" id="bg3"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={15} speed={1}>
-          <Paint2 />
+          <Paint14 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={16} speed={0}>
@@ -216,7 +226,7 @@ function Home() {
           <div class="animation_layer parallax" id="bg3"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={16} speed={1}>
-          <Paint2 />
+          <Paint15 />
         </ParallaxLayer>
       </Parallax>
     </>
