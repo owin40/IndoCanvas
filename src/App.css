@@ -20,10 +20,51 @@
   position: fixed;
 }
 
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+/* Scrollbar Thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Scrollbar Thumb when dragging */
+::-webkit-scrollbar-thumb:active {
+  background-color: #333;
+}
+
+/* Scrollbar Width */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust the width as needed */
+}
+
 #strd {
   width: 100%;
   height: auto;
   filter: grayscale(100%);
+  opacity: 0.6;
+}
+
+#wayanh {
+  background-image: url(./images/wayanh.png);
+  opacity: 0.6;
+}
+
+#awan-kanan {
+  background-image: url(./images/awan-kanan.png);
+  opacity: 0.6;
+}
+
+#awan-kiri {
+  background-image: url(./images/awan-kiri.png);
   opacity: 0.6;
 }
 
@@ -65,10 +106,12 @@
 
 #acc11 {
   background-image: url(./images/acc1.png);
+  opacity: 0.6;
 }
 
 #acc22 {
   background-image: url(./images/acc2.png);
+  opacity: 0.6;
 }
 
 #acc33 {
