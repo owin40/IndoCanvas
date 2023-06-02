@@ -44,19 +44,19 @@ function Home() {
       <Parallax
         pages={17}
         style={{ top: "0", left: "0" }}
-        class="animation scroll-container"
+        className="animation scroll-container"
       >
         <ParallaxLayer offset={0} speed={0}>
-          <div class="animation_layer parallax" id="bg-uncut"></div>
+          <div className="animation_layer parallax" id="bg-uncut"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={-0.3}>
-          <div class="animation_layer parallax" id="title2"></div>
+          <div className="animation_layer parallax" id="title2"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0}>
-          <div class="animation_layer parallax" id="bg-cut"></div>
+          <div className="animation_layer parallax" id="bg-cut"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0}>
-          <div class="animation_layer parallax" id="overlay"></div>
+          <div className="animation_layer parallax" id="overlay"></div>
         </ParallaxLayer>
 
         <ParallaxLayer offset={0} speed={0}>
@@ -64,75 +64,93 @@ function Home() {
         </ParallaxLayer>
 
         <ParallaxLayer offset={1} speed={0.8}>
-          <div class="animation_layer parallax" id="paper"></div>
+          <div className="animation_layer parallax" id="paper"></div>
           <Kotak />
         </ParallaxLayer>
 
         <ParallaxLayer offset={2} speed={0}>
-          <div class="animation_layer parallax" id="white"></div>
+          <div className="animation_layer parallax" id="white"></div>
           <img src={Kesatu} alt="lukisan" id="strd" />
         </ParallaxLayer>
         <ParallaxLayer offset={2} speed={0}>
-          <div class="animation_layer parallax" id="bg3"></div>
+          <div className="animation_layer parallax" id="bg3-atas"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={2} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={2} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={2} speed={1.5}>
-          <div class="animation_layer parallax" id="kris"></div>
+          <div className="animation_layer parallax" id="kris"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={2} speed={1}>
           <Paint1 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={3} speed={0}>
-          <div class="animation_layer parallax" id="white"></div>
+          <div className="animation_layer parallax" id="white"></div>
           <img src={Kedua} alt="lukisan" id="strd" />
         </ParallaxLayer>
         <ParallaxLayer offset={3} speed={0}>
-          <div class="animation_layer parallax" id="bg3"></div>
+          <div className="animation_layer parallax" id="bg3-atas"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={3} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={3} speed={1.5}>
-          <div class="animation_layer parallax" id="awan-kiri"></div>
+          <div className="animation_layer parallax" id="awan-kiri"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={3} speed={1}>
           <Paint2 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={4} speed={0}>
-          <div class="animation_layer parallax" id="white"></div>
+          <div className="animation_layer parallax" id="white"></div>
           <img src={Ketiga} alt="lukisan" id="strd" />
         </ParallaxLayer>
         <ParallaxLayer offset={4} speed={0}>
-          <div class="animation_layer parallax" id="bg3"></div>
+          <div className="animation_layer parallax" id="bg3-atas"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={4} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={4} speed={1}>
-          <div class="animation_layer parallax" id="acc11"></div>
+          <div className="animation_layer parallax" id="acc11"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={4} speed={1}>
           <Paint3 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={5} speed={0}>
-          <div class="animation_layer parallax" id="white"></div>
+          <div className="animation_layer parallax" id="white"></div>
           <img src={Keempat} alt="lukisan" id="strd" />
         </ParallaxLayer>
         <ParallaxLayer offset={5} speed={0}>
-          <div class="animation_layer parallax" id="bg3"></div>
+          <div className="animation_layer parallax" id="bg3-atas"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={5} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={5} speed={1.5}>
-          <div class="animation_layer parallax" id="acc22"></div>
+          <div className="animation_layer parallax" id="acc22"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={5} speed={1}>
           <Paint4 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={6} speed={0}>
-          <div class="animation_layer parallax" id="white"></div>
+          <div className="animation_layer parallax" id="white"></div>
           <img src={Kelima} alt="lukisan" id="strd" />
         </ParallaxLayer>
         <ParallaxLayer offset={6} speed={0}>
-          <div class="animation_layer parallax" id="bg3"></div>
+          <div className="animation_layer parallax" id="bg3-atas"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={6} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={6} speed={1.5}>
-          <div class="animation_layer parallax" id="awan-kanan"></div>
+          <div className="animation_layer parallax" id="awan-kanan"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={5} speed={1}></ParallaxLayer>
         <ParallaxLayer offset={6} speed={1}>
@@ -140,140 +158,170 @@ function Home() {
         </ParallaxLayer>
 
         <ParallaxLayer offset={7} speed={0}>
-          <div class="animation_layer parallax" id="white"></div>
+          <div className="animation_layer parallax" id="white"></div>
           <img src={Keenam} alt="lukisan" id="strd" />
         </ParallaxLayer>
         <ParallaxLayer offset={7} speed={0}>
-          <div class="animation_layer parallax" id="bg3"></div>
+          <div className="animation_layer parallax" id="bg3-atas"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={7} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={7} speed={1.5}>
-          <div class="animation_layer parallax" id="awan-kiri"></div>
+          <div className="animation_layer parallax" id="awan-kiri"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={7} speed={1}>
           <Paint6 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={8} speed={0}>
-          <div class="animation_layer parallax" id="white"></div>
+          <div className="animation_layer parallax" id="white"></div>
           <img src={Ketujuh} alt="lukisan" id="strd" />
         </ParallaxLayer>
         <ParallaxLayer offset={8} speed={0}>
-          <div class="animation_layer parallax" id="bg3"></div>
+          <div className="animation_layer parallax" id="bg3-atas"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={8} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={8} speed={1.5}>
-          <div class="animation_layer parallax" id="awan-kanan"></div>
+          <div className="animation_layer parallax" id="awan-kanan"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={8} speed={1}>
           <Paint7 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={9} speed={0}>
-          <div class="animation_layer parallax" id="white"></div>
+          <div className="animation_layer parallax" id="white"></div>
           <img src={Kedelapan} alt="lukisan" id="strd" />
         </ParallaxLayer>
         <ParallaxLayer offset={9} speed={0}>
-          <div class="animation_layer parallax" id="bg3"></div>
+          <div className="animation_layer parallax" id="bg3-atas"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={9} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={9} speed={1.5}>
-          <div class="animation_layer parallax" id="awan-kiri"></div>
+          <div className="animation_layer parallax" id="awan-kiri"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={9} speed={1}>
           <Paint8 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={10} speed={0}>
-          <div class="animation_layer parallax" id="white"></div>
+          <div className="animation_layer parallax" id="white"></div>
           <img src={Kesembilan} alt="lukisan" id="strd" />
         </ParallaxLayer>
         <ParallaxLayer offset={10} speed={0}>
-          <div class="animation_layer parallax" id="bg3"></div>
+          <div className="animation_layer parallax" id="bg3-atas"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={10} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={10} speed={1.5}>
-          <div class="animation_layer parallax" id="awan-kanan"></div>
+          <div className="animation_layer parallax" id="awan-kanan"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={10} speed={1}>
           <Paint9 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={11} speed={0}>
-          <div class="animation_layer parallax" id="white"></div>
+          <div className="animation_layer parallax" id="white"></div>
           <img src={Kesepuluh} alt="lukisan" id="strd" />
         </ParallaxLayer>
         <ParallaxLayer offset={11} speed={0}>
-          <div class="animation_layer parallax" id="bg3"></div>
+          <div className="animation_layer parallax" id="bg3-atas"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={11} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={11} speed={1.5}>
-          <div class="animation_layer parallax" id="awan-kiri"></div>
+          <div className="animation_layer parallax" id="awan-kiri"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={11} speed={1}>
           <Paint10 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={12} speed={0}>
-          <div class="animation_layer parallax" id="white"></div>
+          <div className="animation_layer parallax" id="white"></div>
           <img src={Kesebelas} alt="lukisan" id="strd" />
         </ParallaxLayer>
         <ParallaxLayer offset={12} speed={0}>
-          <div class="animation_layer parallax" id="bg3"></div>
+          <div className="animation_layer parallax" id="bg3-atas"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={12} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={12} speed={1.5}>
-          <div class="animation_layer parallax" id="awan-kanan"></div>
+          <div className="animation_layer parallax" id="awan-kanan"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={12} speed={1}>
           <Paint11 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={13} speed={0}>
-          <div class="animation_layer parallax" id="white"></div>
+          <div className="animation_layer parallax" id="white"></div>
           <img src={Keduabelas} alt="lukisan" id="strd" />
         </ParallaxLayer>
         <ParallaxLayer offset={13} speed={0}>
-          <div class="animation_layer parallax" id="bg3"></div>
+          <div className="animation_layer parallax" id="bg3-atas"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={13} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={13} speed={1.5}>
-          <div class="animation_layer parallax" id="awan-kiri"></div>
+          <div className="animation_layer parallax" id="awan-kiri"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={13} speed={1}>
           <Paint12 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={14} speed={0}>
-          <div class="animation_layer parallax" id="white"></div>
+          <div className="animation_layer parallax" id="white"></div>
           <img src={Ketigabelas} alt="lukisan" id="strd" />
         </ParallaxLayer>
         <ParallaxLayer offset={14} speed={0}>
-          <div class="animation_layer parallax" id="bg3"></div>
+          <div className="animation_layer parallax" id="bg3-atas"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={14} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={14} speed={1.5}>
-          <div class="animation_layer parallax" id="awan-kanan"></div>
+          <div className="animation_layer parallax" id="awan-kanan"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={14} speed={1}>
           <Paint13 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={15} speed={0}>
-          <div class="animation_layer parallax" id="white"></div>
+          <div className="animation_layer parallax" id="white"></div>
           <img src={Keempatbelas} alt="lukisan" id="strd" />
         </ParallaxLayer>
         <ParallaxLayer offset={15} speed={0}>
-          <div class="animation_layer parallax" id="bg3"></div>
+          <div className="animation_layer parallax" id="bg3-atas"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={15} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={15} speed={1.5}>
-          <div class="animation_layer parallax" id="awan-kiri"></div>
+          <div className="animation_layer parallax" id="awan-kiri"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={15} speed={1}>
           <Paint14 />
         </ParallaxLayer>
 
         <ParallaxLayer offset={16} speed={0}>
-          <div class="animation_layer parallax" id="white"></div>
+          <div className="animation_layer parallax" id="white"></div>
           <img src={Kelimabelas} alt="lukisan" id="strd" />
         </ParallaxLayer>
         <ParallaxLayer offset={16} speed={0}>
-          <div class="animation_layer parallax" id="bg3"></div>
+          <div className="animation_layer parallax" id="bg3-atas"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={16} speed={0}>
+          <div className="animation_layer parallax" id="bg3-bawah"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={16} speed={1.5}>
-          <div class="animation_layer parallax" id="awan-kanan"></div>
+          <div className="animation_layer parallax" id="awan-kanan"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={16} speed={1}>
           <Paint15 />
