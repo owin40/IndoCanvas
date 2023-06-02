@@ -1,5 +1,6 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
+import QuotesComponent from "./QuotesComponent";
 
 function About() {
   return (
@@ -65,6 +66,7 @@ function About() {
           </div>
         </div>
       </section>
+      <QuotesComponent component />
     </div>
   );
 }
