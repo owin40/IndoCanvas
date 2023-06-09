@@ -11,12 +11,9 @@ function Paint15() {
         <h2 className="title">Wisdom of The East</h2>
         <h3 className="sub-title">Karya: Affandi</h3>
         <p className="description">
-          Dalam karya "Wisdom of the East" karya Affandi, terdapat makna tentang
-          kearifan budaya Timur yang disampaikan dengan simbol-simbol dan
-          warna-warna cerah. Lukisan ini mengajak kita untuk menghormati dan
-          mengambil pelajaran dari tradisi Timur, serta menjaga kekayaan warisan
-          budaya sebagai sumber inspirasi yang berharga dalam kehidupan masa
-          kini.
+          Lukisan ini mengajak kita untuk menghormati dan mengambil pelajaran
+          dari tradisi Timur, serta menjaga kekayaan warisan budaya sebagai
+          sumber inspirasi yang berharga dalam kehidupan masa kini.
         </p>
       </div>
     </div>

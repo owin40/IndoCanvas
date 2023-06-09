@@ -11,12 +11,8 @@ function Paint13() {
         <h2 className="title">Persiapan Gerilya</h2>
         <h3 className="sub-title">Karya: S.Sudjojono</h3>
         <p className="description">
-          Dalam karya "Persiapan Griliya" karya S. Sudjojono, terdapat makna
-          yang tajam. Lukisan ini menggambarkan seorang perempuan yang tegar dan
-          penuh ketabahan, siap menghadapi perubahan dan tantangan hidup. Karya
-          ini menginspirasi untuk menghargai kekuatan dan ketahanan perempuan
-          serta menggambarkan pentingnya persiapan dan keberanian dalam
-          menghadapi perubahan.
+          Lukisan ini menggambarkan seorang perempuan yang tegar dan penuh
+          ketabahan, siap menghadapi perubahan dan tantangan hidup.
         </p>
       </div>
     </div>

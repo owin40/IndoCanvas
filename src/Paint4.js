@@ -11,13 +11,9 @@ function Paint4() {
         <h2 className="title1">Hilir Mudik</h2>
         <h3 className="sub-title1">Karya: Barli Sasmita Winata</h3>
         <p className="description1">
-          Lukisan karya Barli Sasmita Winata ini menjelaskan, menunjukan arus
-          aliran sungai dikawasan dengan kata “hilir” yang berarti arus aliran
-          sungai. Dan di tambah lagi dengan para perantau atau perkerja migran
-          yang bertransportasi perahu untuk kembali ke kampung halamannya . itu
-          kenapa ada kata “mudik“dijudulnya Jadi hilir mudik menjelaskan para
-          perantauatau perkerja migran yang ingin pulang ke kampunghalamnnya
-          dengan alat transportasi perahu diatas arus aliran sungai
+          Dari “mudik“ menjadi hilir mudik menjelaskan para perantaun atau
+          perkerja migran yang ingin pulang ke kampung halamannya dengan alat
+          transportasi perahu diatas arus aliran sungai.
         </p>
       </div>
     </div>

@@ -11,12 +11,8 @@ function Paint12() {
         <h2 className="title1">Perburuan Singa</h2>
         <h3 className="sub-title1">Karya: Raden Saleh</h3>
         <p className="description1">
-          "Pemburuan Singa" karya Raden Saleh, terdapat makna yang dalam.
           Lukisan ini menggambarkan konfrontasi antara manusia dan binatang
           buas, yang melambangkan pertarungan antara kekuatan dan keberanian.
-          Karya ini mengajak kita untuk merenungkan hubungan kompleks antara
-          manusia dan alam, serta pentingnya menjaga keseimbangan dan
-          menghormati keberadaan binatang liar.
         </p>
       </div>
     </div>

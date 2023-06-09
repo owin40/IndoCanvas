@@ -13,12 +13,7 @@ function Paint9() {
         <p className="description">
           Makna dari "Penangkapan Diponegoro" karya Raden Saleh adalah tentang
           perlawanan dan ketegasan Diponegoro dalam menghadapi penjajahan
-          Belanda. Melalui lukisan ini, Raden Saleh menggambarkan Diponegoro
-          sebagai seorang pahlawan yang kuat dan berani, yang menentang
-          penindasan dan tidak gentar menghadapi musuh. Karya ini menjadi simbol
-          semangat perlawanan dan keberanian dalam melawan penjajahan,
-          menginspirasi kita untuk mempertahankan hak-hak kita dan berjuang
-          untuk keadilan.
+          Belanda.
         </p>
       </div>
     </div>

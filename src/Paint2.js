@@ -14,12 +14,7 @@ function Paint2() {
           lukisan Affandi ini Melukiskan sebuah pertarungan ayam yang sangat
           sengit, antara Ayam jago berwarna putih ke emasan dan Ayam jago
           berwarna hitam ke emasan, yang merupakan simbol pertarungan antara
-          kejahatan dan kebenaran, itulah yang terjadi dalam kehidupan, dalam
-          setiap diri manusia, dimana setiap waktu selalu dihadapkan antara dua
-          pilihan baik dan buruk, selalu terjadi pertarungan antara keduanya,
-          adakalanya kebenaran harus tersingkirkan, adakalanya kejahatan harus
-          terhapuskan, namun yang pasti kebenaran akan selalu menang pada
-          akhirnya.
+          kejahatan dan kebenaran.
         </p>
       </div>
     </div>

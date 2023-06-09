@@ -11,8 +11,6 @@ function Paint8() {
         <h2 className="title1">Pemandangan Priangan</h2>
         <h3 className="sub-title1">Karya: Abdullah Suriosubroto</h3>
         <p className="description1">
-          "Pemandangan Priangan" karya Abdullah Suriosubroto adalah lukisan yang
-          menggambarkan kekayaan alam Pegunungan Priangan dengan keindahannya.
           Lukisan ini mengajak kita untuk menjaga harmoni antara manusia dan
           alam serta menghargai keberagaman hayati yang ada di sekitar kita.
         </p>

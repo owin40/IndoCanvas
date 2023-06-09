@@ -11,13 +11,9 @@ function Paint7() {
         <h2 className="title">Pandan dengan Kembang ditangannya</h2>
         <h3 className="sub-title">Karya: S.Sudjojono</h3>
         <p className="description">
-          Dalam karya "Pandan dengan Kembang Ditangannya" karya S. Sudjojono,
-          terdapat makna mendalam. Pandan dan kembang ditangannya melambangkan
-          perjuangan dan keindahan dalam hidup, mengajarkan kita untuk tetap
-          tegar dan berjuang mencari kebahagiaan di tengah kesulitan. Karya ini
-          menggambarkan perpaduan antara dua elemen yang tampak bertentangan
-          namun dapat hidup berdampingan dalam harmoni, mengajarkan kita untuk
-          menerima dan menghargai keberagaman dalam kehidupan.
+          Pandan dan kembang ditangannya melambangkan perjuangan dan keindahan
+          dalam hidup, mengajarkan kita untuk tetap tegar dan berjuang mencari
+          kebahagiaan di tengah kesulitan.
         </p>
       </div>
     </div>

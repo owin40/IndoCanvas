@@ -11,12 +11,9 @@ function Paint5() {
         <h2 className="title">Javanese Mail Station</h2>
         <h3 className="sub-title">Karya: Raden Saleh</h3>
         <p className="description">
-          Lukisan "Javanese Mail Station" karya Raden Saleh memiliki makna yang
-          dalam. Melalui lukisan ini, Raden Saleh menggambarkan stasiun pos di
-          Jawa yang menjadi simbol pentingnya transportasi dalam menghubungkan
-          wilayah dan masyarakat. Lukisan ini mencerminkan perubahan sosial dan
-          kemajuan yang terjadi pada masa itu, menyoroti peran penting stasiun
-          pos dalam mengirim surat, berita, dan informasi penting.
+          Melalui lukisan ini, Raden Saleh menggambarkan stasiun pos di Jawa
+          yang menjadi simbol pentingnya transportasi dalam menghubungkan
+          wilayah dan masyarakat.
         </p>
       </div>
     </div>

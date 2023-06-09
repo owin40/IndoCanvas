@@ -30,14 +30,14 @@
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   padding-top: 20px;
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: bold;
 }
 
 .sub-title {
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  font-size: 3vw;
+  font-size: 2.25vw;
   font-style: italic;
 }
 
@@ -46,7 +46,7 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   padding-top: 30px;
   padding-bottom: 10px;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 @media (max-width: 1000px) {
